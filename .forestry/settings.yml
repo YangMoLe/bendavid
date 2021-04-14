@@ -15,8 +15,8 @@ sections:
   templates:
   - page
 - type: directory
-  path: src/content/articles
-  label: Articles
+  path: src/content/gallery
+  label: Gallery
   create: documents
   match: "**/*"
   templates:
