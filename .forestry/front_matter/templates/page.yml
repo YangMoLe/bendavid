@@ -24,5 +24,3 @@ fields:
     maxSize: 64
   label: hero image
   description: Choose the image which should be used for preview and the index page
-pages:
-- src/content/pages/grunkarierter-tisch.md

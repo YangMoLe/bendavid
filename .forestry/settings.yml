@@ -14,13 +14,6 @@ sections:
   match: "**/*"
   templates:
   - page
-- type: directory
-  path: src/content/gallery
-  label: Gallery
-  create: documents
-  match: "**/*"
-  templates:
-  - article
 upload_dir: src/assets/img
 public_path: "/assets/img"
 front_matter_path: ''
