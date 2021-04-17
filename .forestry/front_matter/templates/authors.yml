@@ -30,6 +30,8 @@ fields:
   - type: text
     name: socials
     label: socials
-  - type: text
-    name: picture
-    label: picture
+- name: profile_picture
+  type: file
+  config:
+    maxSize: 64
+  label: profile picture
