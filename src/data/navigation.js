@@ -4,8 +4,8 @@ module.exports = [
 		link: "/"
 	},
 	{
-		title: "Articles",
-		link: "/articles/"
+		title: "Customization",
+		link: "/Customization/"
 	},
 	{
 		title: "About",

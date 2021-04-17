@@ -7,7 +7,7 @@ module.exports = function() {
 			siteBaseUrl: "http://localhost:8080/"
 		},
 		production: {
-			siteBaseUrl: "https://rusingh.com/"
+			siteBaseUrl: "https://bendavid.com/"
 		}
 	};
 

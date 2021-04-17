@@ -64,8 +64,8 @@ module.exports = function(config) {
 	// config.addFilter("htmlToAbsoluteUrls", feedFilters.htmlToAbsoluteUrls);
 
 	// *** Collections
-	// Articles
-	config.addCollection("articles", collections.articles);
+	// Items
+	config.addCollection("items", collections.items);
 
 	// *** Custom rendering engine
 	const { Liquid } = require("liquidjs");
