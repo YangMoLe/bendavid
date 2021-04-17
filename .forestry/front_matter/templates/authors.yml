@@ -1,0 +1,35 @@
+---
+label: authors
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: field_group_list
+  name: authors
+  label: authors
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: slug
+    label: slug
+  - type: textarea
+    name: introduction
+    label: introduction
+  - type: list
+    name: roles
+    label: roles
+  - type: text
+    name: website
+    label: website
+  - type: text
+    name: socials
+    label: socials
+  - type: text
+    name: picture
+    label: picture
