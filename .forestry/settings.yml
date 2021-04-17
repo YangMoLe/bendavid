@@ -8,8 +8,8 @@ sections:
   path: src/data/site.json
   label: Site Settings & Authors
 - type: directory
-  path: src/content/pages
-  label: Pages
+  path: src/content/items
+  label: Items
   create: documents
   match: "**/*"
   templates:
