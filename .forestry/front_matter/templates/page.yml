@@ -69,5 +69,3 @@ fields:
       path: 
   label: Change Frequency
   description: How frequently should this be crawled by search engines?
-pages:
-- src/content/pages/about.md

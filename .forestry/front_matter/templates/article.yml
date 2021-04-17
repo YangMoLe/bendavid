@@ -105,6 +105,3 @@ fields:
       path: 
   label: Change Frequency
   description: How frequently should this be crawled by search engines?
-pages:
-- src/content/articles/hello-world.md
-- src/content/articles/hello-you.md
