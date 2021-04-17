@@ -11,8 +11,11 @@
         "Creator"
       ],
       "website": "",
-      "socials": ""
+      "socials": "",
+      "picture": "/assets/img/2021/04/bildschirmfoto-2021-04-17-um-18-44-23.png"
     }
   ],
-  "profile_picture": "/assets/img/2021/04/bildschirmfoto-2021-04-17-um-18-44-23.png"
+  "profile_picture": "/assets/img/2021/04/bildschirmfoto-2021-04-17-um-18-44-23.png",
+  "draft": true,
+  "hero_image": ""
 }
