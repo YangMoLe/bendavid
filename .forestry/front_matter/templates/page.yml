@@ -3,69 +3,24 @@ label: Page
 hide_body: false
 display_field: title
 fields:
-- type: text
-  name: layout
-  label: layout
-  hidden: true
-  config:
-    required: true
-  default: page
-- type: datetime
-  name: updated
-  config:
-    required: true
-    export_format: YYYY-MM-DD HH:mm:ss Z
-    date_format: YYYY-MM-DD
-    time_format: HH:mm:ss Z
-  default: now
-  label: Last Updated
 - type: boolean
   name: draft
   label: Draft
   default: true
 - type: text
-  name: author
-  label: Author
-  hidden: true
-  config:
-    required: true
-- type: text
   name: title
-  label: Page Title
+  label: Item Title
   config:
     required: true
+  description: Give your Item a name
 - type: textarea
   name: subtitle
-  label: Page Subtitle
+  label: Item subtitle
   default: ''
-- type: text
-  name: content-description
-  label: Content Summary
-  description: Keep it brief. Good for SEO. Do not abuse keywords.
+  description: describe (if needed)
+- name: hero_image
+  type: file
   config:
-    required: true
-- type: text
-  name: permalink
-  label: Permalink
-  config:
-    required: true
-- name: changeFrequency
-  type: select
-  default: weekly
-  config:
-    required: false
-    options:
-    - always
-    - hourly
-    - daily
-    - weekly
-    - monthly
-    - yearly
-    - never
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Change Frequency
-  description: How frequently should this be crawled by search engines?
+    maxSize: 64
+  label: hero image
+  description: Choose the image which should be used for preview and the index page
